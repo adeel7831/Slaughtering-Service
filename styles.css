@@ -116,7 +116,7 @@ nav ul li a:hover{
 }
 .heroSection{
     height: 100vh;
-    background-image: url('/images/heroSection.jpg');
+    background-image: url('images/heroSection.jpg');
     background-size: cover;    
 }
 .heroSectionSubDiv{
@@ -213,13 +213,13 @@ nav ul li a:hover{
     border-radius: 0.3rem;
 }
 .goatImg{
-    background-image: url('/images/goat.jpg');
+    background-image: url('images/goat.jpg');
 }
 .cowImg{
-    background-image: url('/images/cow.jpg');
+    background-image: url('images/cow.jpg');
 }
 .camelImg{
-    background-image: url('/images/camel.jpg');
+    background-image: url('images/camel.jpg');
 }
 .contactSection{
     display: flex;
