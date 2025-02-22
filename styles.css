@@ -215,6 +215,9 @@ nav ul li a:hover{
 .goatImg{
     background-image: url('images/goat.jpg');
 }
+.sheepImg{
+    background-image: url('images/sheep.jpg');
+}
 .cowImg{
     background-image: url('images/cow.jpg');
 }
@@ -259,6 +262,24 @@ flex-direction: column;
 }
 .socialIcons img{
     height: 50px;
+}
+table{
+    width: 100%;
+    border: solid 1px var(--headingColor);
+    padding: 5px;
+    border-collapse: collapse;
+}
+th{
+    padding: 0.3rem;
+    border-bottom: solid 1px var(--headingColor);
+}
+td{
+    text-align: center;
+    padding: 0.5rem;
+    
+}
+tr:hover{
+    background-color: white;
 }
 
   /*Media Queries Start Here*/  
@@ -356,8 +377,12 @@ a {
 i[class^="ri-"] {
     font-size: 0.9em;
 }
+.heroSection{
+    height: 60vh;
+}
 .heroSectionSubDiv h1{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    text-align: center;
 }
 .topBarSubDiv ul li{
     gap: 0.5rem;
